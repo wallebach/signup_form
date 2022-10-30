@@ -1,0 +1,39 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.right-container {
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+.left-container {
+    flex: 1;
+    flex-grow: 1 1 0;
+    justify-content: center;
+}
+
+.form-elements {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.image {
+    display:inline;
+    width: 100%;
+}
+
+.right-top-container {
+    min-height: 33.3%;
+    background: gray
+}
+
+.right-middle-container {
+    min-height: 33.3%;
+}
+
+.right-bottom-container {
+    min-height: 33.3%;
+    background: gray
+}
